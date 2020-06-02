@@ -48,9 +48,13 @@ print(waypoints)
 
 # YOUR CODE HERE
 
-updateDict = dict([("lat", -130), ("lon", 77), ("name", "not a real place")])
+# updateDict = dict([("lat", -130), ("lon", 77), ("name", "not a real place")])
 
-waypoints[0].update(updateDict)
+#loop through on keys to find name= place 
+#.update(lon, name)
+#.waypoints[0][lon] = new value
+
+waypoints[0].update(lon= -130, name= "not a real place")
 print(waypoints)
 
 # Write a loop that prints out all the field values for all the waypoints
